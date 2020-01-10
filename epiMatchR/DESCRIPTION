@@ -1,0 +1,24 @@
+Package: epiMatchR
+Title: Tools for Epitope-Based Analysis of Serological Sample Identity
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Moriah",
+           family = "Mitchell",
+           role = c("aut", "cre"),
+           email = "moriahmitchell@g.harvard.edu",
+           comment = c(ORCID = "https://orcid.org/0000-0001-9637-2973"))
+Description: EpiMatchR contains functions that aid processing and analyzing VirScan antibody profile data.
+Depends: 
+    R (>= 3.5.1),
+Imports:
+    stats (>= 3.5.1),
+    dplyr (>= 0.8.3),
+    parallel (>= 3.6.1)
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
